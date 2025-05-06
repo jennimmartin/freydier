@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link } from "react-router-dom";
+
+import { navLinks } from "../assets/data";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,17 +11,19 @@ const Navbar = () => {
 
   const links = (
     <>
-      <Link className={linkClasses} href="/#galerie" id="galerie">
-        Galerie
-      </Link>
-      <Link className={linkClasses} href="/#contact" id="contact">
-        Contact
-      </Link>
+      {navLinks.map((navLink) => {
+        const { id, href, text } = navLink;
+        return (
+          <a key={id} href={href} className={linkClasses}>
+            {text}
+          </a>
+        );
+      })}
     </>
   );
 
   return (
-    <nav className="bg-sky-700 text-white fixed sticky w-full">
+    <nav className="bg-sky-700 text-white fixed w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex flex-row w-full justify-between">
