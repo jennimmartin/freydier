@@ -1,19 +1,25 @@
-import img from "../images/hero.png";
+import img from "../images/hero-left.png";
+import img2 from "../images/hero-right.png";
 
 const Hero = () => {
   return (
     <>
-      <div className="flex justify-center gap-x-96 py-8">
-        <div className="border-2 border-solid border-red-500">
-          <h1 className="text-5xl text-sky-700 font-bold tracking-wider capitalize py-4">
-            Freydier Carrelage
-          </h1>
-          <h2 className="text-2xl tracking-wider">
-            Votre artisan carreleur en tarentaise
-          </h2>
-        </div>
-        <div className="border-2 border-solid border-red-500 hidden md:block">
-          <img src={img} alt="hero" />
+      <div>
+        <div className="mx-auto max-w-7xl px-8 grid md:grid-cols-3 items-center gap-8 py-12">
+          <article className="hidden md:block">
+            <img src={img} alt="hero" className="mx-auto h-80 lg:-96" />
+          </article>
+          <div className="">
+            <h1 className="text-7xl text-black text-center font-bold tracking-wider capitalize py-4">
+              Freydier Carrelage
+            </h1>
+            <h2 className="text-2xl text-sky-900 text-center tracking-wider">
+              Votre artisan carreleur en Tarentaise
+            </h2>
+          </div>
+          <article className="hidden md:block">
+            <img src={img2} alt="" className="mx-auto h-80 lg:-96" />
+          </article>
         </div>
       </div>
     </>

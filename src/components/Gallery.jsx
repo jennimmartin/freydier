@@ -1,56 +1,10 @@
 const Gallery = () => {
   return (
     <div>
-      <div className="py-30" id="galerie">
-        <h3>Galerie</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-          dignissimos optio enim aspernatur dolores sint odio rem unde veritatis
-          voluptatibus? Itaque ad corrupti iste quisquam quae magni incidunt in
-          pariatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Alias dignissimos optio enim aspernatur dolores sint odio rem unde
-          veritatis voluptatibus? Itaque ad corrupti iste quisquam quae magni
-          incidunt in pariatur! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Alias dignissimos optio enim aspernatur dolores sint
-          odio rem unde veritatis voluptatibus? Itaque ad corrupti iste quisquam
-          quae magni incidunt in pariatur!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-          dignissimos optio enim aspernatur dolores sint odio rem unde veritatis
-          voluptatibus? Itaque ad corrupti iste quisquam quae magni incidunt in
-          pariatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Alias dignissimos optio enim aspernatur dolores sint odio rem unde
-          veritatis voluptatibus? Itaque ad corrupti iste quisquam quae magni
-          incidunt in pariatur! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Alias dignissimos optio enim aspernatur dolores sint
-          odio rem unde veritatis voluptatibus? Itaque ad corrupti iste quisquam
-          quae magni incidunt in pariatur!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-          dignissimos optio enim aspernatur dolores sint odio rem unde veritatis
-          voluptatibus? Itaque ad corrupti iste quisquam quae magni incidunt in
-          pariatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Alias dignissimos optio enim aspernatur dolores sint odio rem unde
-          veritatis voluptatibus? Itaque ad corrupti iste quisquam quae magni
-          incidunt in pariatur! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Alias dignissimos optio enim aspernatur dolores sint
-          odio rem unde veritatis voluptatibus? Itaque ad corrupti iste quisquam
-          quae magni incidunt in pariatur!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
-          dignissimos optio enim aspernatur dolores sint odio rem unde veritatis
-          voluptatibus? Itaque ad corrupti iste quisquam quae magni incidunt in
-          pariatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Alias dignissimos optio enim aspernatur dolores sint odio rem unde
-          veritatis voluptatibus? Itaque ad corrupti iste quisquam quae magni
-          incidunt in pariatur! Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Alias dignissimos optio enim aspernatur dolores sint
-          odio rem unde veritatis voluptatibus? Itaque ad corrupti iste quisquam
-          quae magni incidunt in pariatur!
-        </p>
+      <div className="mx-auto max-w-7xl py-30" id="galerie">
+        <h2>Galerie</h2>
+        <p>Nous pensons que nos projets passés parlent d'eux-mêmes. </p>
+        <p>Votre projet sera-t-il le prochain à être présenté ?</p>
       </div>
     </div>
   );
