@@ -11,7 +11,7 @@ const Hero = () => {
           </article>
           <div className="">
             <h1 className="text-5xl text-sky-950 text-center font-bold tracking-wider capitalize py-4 md:text-7xl">
-              Freydier Carrelage
+              FREYDIER Carrelage
             </h1>
             <h2 className="text-2xl text-sky-900 text-center tracking-wider">
               Votre artisan carreleur en Tarentaise
