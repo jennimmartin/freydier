@@ -10,7 +10,7 @@ const Hero = () => {
             <img src={img} alt="hero" className="mx-auto h-80 lg:-96" />
           </article>
           <div className="">
-            <h1 className="text-5xl text-sky-800 text-center font-bold tracking-wider capitalize py-4 md:text-7xl">
+            <h1 className="text-5xl text-sky-900 text-center font-bold tracking-wider capitalize py-4 md:text-7xl">
               FREYDIER Carrelage
             </h1>
             <h2 className="text-2xl text-sky-900 text-center tracking-wider">
