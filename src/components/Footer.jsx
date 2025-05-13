@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className="bg-sky-950">
         <div className="flex justify-center gap-2 text-sky-50">
-          <h5>Created by </h5>
+          <h5>créé par </h5>
           <a href="https://jenni-le-cure.netlify.app"> jennimmartin</a>
           <h5>
             | &copy;{""}

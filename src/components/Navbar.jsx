@@ -28,8 +28,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex flex-row w-full justify-between">
-            <div className="text-xl font-bold tracking-wider">
-              FREYDIER Carrelage
+            <div className="tracking-wider">
+              <p className="text-2xl font-bold text-sky-500">
+                FREYDIER <span className="text-sky-50">Carrelage</span>
+              </p>
             </div>
             <div className="hidden md:block">
               <div className="flex ml-10 items-baseline space-x-2">{links}</div>
