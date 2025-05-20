@@ -27,15 +27,15 @@ const Hero = () => {
             before:from-sky-50
             before:via-gray-950
             before:to-sky-50
-            before:opacity-75
+            before:opacity-80
             before:z-[-5]
 			"
       >
         <div className="grid pt-48 justify-items-center align-center">
-          <h1 className="text-5xl text-white font-bold tracking-wider capitalize py-4 md:text-7xl">
+          <h1 className="text-5xl text-gray-50 font-bold tracking-wider capitalize py-4 md:text-7xl">
             FREYDIER Carrelage
           </h1>
-          <h2 className="text-2xl  md:text-lg lg:text-2xl text-gray-50 tracking-wider">
+          <h2 className="text-2xl  md:text-lg lg:text-2xl text-gray-200 tracking-wider">
             Votre artisan carreleur en Tarentaise
           </h2>
         </div>
