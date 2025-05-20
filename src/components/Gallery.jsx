@@ -8,7 +8,7 @@ import photo6 from "../images/photo-kitchen-1.jpg";
 
 const Gallery = () => {
   return (
-    <div className="bg-stone-50">
+    <div className="bg-gray-50">
       <div className="mx-auto max-w-7xl py-30" id="galerie">
         <h2 className="text-center text-2xl text-bold tracking-wider text-sky-700 pb-8 md:text-3xl">
           Galerie

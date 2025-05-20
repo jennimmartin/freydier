@@ -24,13 +24,13 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-sky-900 text-white fixed sticky w-full">
+    <nav className="bg-gray-900 text-white fixed sticky w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex flex-row w-full justify-between">
             <div className="tracking-wider">
-              <p className="text-2xl font-bold text-sky-500">
-                FREYDIER <span className="text-sky-50">Carrelage</span>
+              <p className="text-2xl font-bold text-sky-600">
+                FREYDIER <span className="text-gray-50">Carrelage</span>
               </p>
             </div>
             <div className="hidden md:block">

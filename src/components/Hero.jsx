@@ -7,37 +7,39 @@ const Hero = () => {
       <div
         class="w-full
             h-screen
-            max-h-[32rem]
+            max-h-[48rem]
             p-24
             relative
             overflow-hidden
             block
             z-10
+						
+            bg-[url('https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&w=600')]
+            bg-cover
+            bg-no-repeat
+            bg-center
+
+            before:content-['']
+            before:absolute
+            before:inset-0
+            before:block
+            before:bg-gradient-to-r
+            before:from-sky-50
+            before:via-gray-950
+            before:to-sky-50
+            before:opacity-75
+            before:z-[-5]
 			"
       >
-        <h1 class="text-black text-4xl">
-          Image background with overlay gradient
-        </h1>
-      </div>
-      Ï
-      {/*<div className="bg-stone-100">
-        <div className="mx-auto max-w-7xl px-8 grid md:grid-cols-2 lg:grid-cols-3 items-center gap-8 h-[48rem]">
-          <article className="hidden lg:block">
-            <img src={img} alt="hero" className="mx-auto h-80 lg:-96" />
-          </article>
-          <div className="">
-            <h1 className="text-5xl text-sky-700 text-center font-bold tracking-wider capitalize py-4 md:text-7xl lg:text-7xl">
-              FREYDIER Carrelage
-            </h1>
-            <h2 className="text-2xl  md:text-lg lg:text-2xl text-sky-900 text-center tracking-wider">
-              Votre artisan carreleur en Tarentaise
-            </h2>
-          </div>
-          <article className="hidden md:block">
-            <img src={img2} alt="" className="mx-auto h-80 lg:-96" />
-          </article>
+        <div className="grid pt-48 justify-items-center align-center">
+          <h1 className="text-5xl text-white font-bold tracking-wider capitalize py-4 md:text-7xl">
+            FREYDIER Carrelage
+          </h1>
+          <h2 className="text-2xl  md:text-lg lg:text-2xl text-gray-50 tracking-wider">
+            Votre artisan carreleur en Tarentaise
+          </h2>
         </div>
-  </div>*/}
+      </div>
     </>
   );
 };

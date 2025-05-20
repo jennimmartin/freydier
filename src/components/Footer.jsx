@@ -20,7 +20,7 @@ const Footer = () => {
           <p>entfreydiercarrelage@orange.fr</p>
         </div>
       </div>
-      <div className="bg-sky-950 py-1.5">
+      <div className="bg-gray-950 py-1.5">
         <div className="flex justify-center gap-2 text-sky-50">
           <span className="font-bold  hover:text-sky-400 duration-300">
             <Link to="/legal">Mentions légales </Link>
