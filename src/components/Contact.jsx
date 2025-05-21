@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <div className="grid grid-cols-2 text-center">
           <p className="text-center pb-4 tracking-wide px-8 md:text-lg">
-            <a href="mailtoentfreydiercarrelage@orange.fr">
+            <a href="mailto:entfreydiercarrelage@orange.fr">
               <MdOutlineMail className="text-sky-700 h-10 w-10 inline-grid cursor-pointer hover:text-sky-500 duration-300" />
               <h5 className="pt-3">Envoyez-nous un email</h5>
             </a>
