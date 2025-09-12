@@ -5,7 +5,7 @@ const CONFIG = {
   vat: "TBC", // delete if not applicable
   rcs: "Chambéry", // delete if not applicable
   address: "CHEF Lieu RES la Basse RES la Basse 73600 HAUTECOUR", // add company address
-  contactEmail: "", // official email
+  contactEmail: "entfreydiercarrelage@orange.fr", // official email
   contactPhone: "06 82 68 73 88", // optional
   director: "Lionel Freydier",
   host: {
