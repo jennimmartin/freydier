@@ -1,6 +1,3 @@
-import img from "../images/hero-left.png";
-import img2 from "../images/hero-right.svg";
-
 const Hero = () => {
   return (
     <>

@@ -16,7 +16,7 @@ const Footer = () => {
         </article>
         <div className="text-gray-50 grid md:place-items-end">
           <p>CHEF Lieu RES la Basse RES la Basse 73600 HAUTECOUR</p>
-          <p>06.82.68.73.88.</p>
+          <p>06 82 68 73 88</p>
           <p>entfreydiercarrelage@orange.fr</p>
         </div>
       </div>
