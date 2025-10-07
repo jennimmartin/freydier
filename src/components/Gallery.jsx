@@ -42,7 +42,7 @@ const Gallery = () => {
 
       {/* Gallery grid full-width with padding */}
       <div className="w-full px-4 pb-4">
-        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-[1600px]">
+        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl">
           {images.map((img, index) => (
             <div
               key={index}
