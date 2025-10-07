@@ -35,7 +35,7 @@ const Gallery = () => {
         <h2 className="text-center text-2xl font-bold tracking-wider text-sky-700 pb-8 md:text-3xl">
           Galerie
         </h2>
-        <p className="text-center pb-8 tracking-wide px-8 md:text-lg">
+        <p className="text-center pb-4 tracking-wide px-8 md:text-lg">
           Nous pensons que nos projets passés parlent d'eux-mêmes.
         </p>
       </div>
@@ -60,9 +60,7 @@ const Gallery = () => {
 
       {/* Bottom text back in max-w-7xl */}
       <div className="mx-auto pb-4 max-w-7xl">
-        <p className="text-center py-8 tracking-wide px-8 md:text-lg">
-          Votre projet sera-t-il le prochain à être présenté ?
-        </p>
+        <p className="text-center py-8 tracking-wide px-8 md:text-lg"></p>
       </div>
     </div>
   );
