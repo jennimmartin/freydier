@@ -82,7 +82,7 @@ const Footer = () => {
           <h5>| créé par </h5>
           <a
             className=" hover:text-sky-400 duration-300"
-            href="https://jenni-le-cure.netlify.app"
+            href="https://jennimmartin.com"
           >
             jennimmartin
           </a>
